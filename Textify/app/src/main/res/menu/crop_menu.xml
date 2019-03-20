@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/rotate"
+        android:icon="@drawable/crop_image_menu_rotate_right"
+        android:title="Rotate"
+        app:showAsAction="always"
+        android:tooltipText="Rotate"/>
+
+    <item
+        android:id="@+id/flip"
+        android:icon="@drawable/crop_image_menu_flip"
+        android:title="Flip"
+        app:showAsAction="always"
+        android:tooltipText="Flip"/>
+
+    <item android:id="@+id/crop"
+        app:showAsAction="always"
+        android:title="Crop" />
+</menu>
